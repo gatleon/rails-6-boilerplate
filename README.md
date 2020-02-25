@@ -27,3 +27,18 @@ inherit_gem:
 ```
 bundle exec rubocop -a
 ```
+
+Add RSpec
+
+```
+# Gemfile
+group :development, :test do
+  ..
+  gem "rspec-rails", "~> 4.0.0.beta"
+end
+```
+
+```
+bin/rails generate rspec:install
+```
+
