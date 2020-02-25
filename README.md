@@ -42,3 +42,16 @@ end
 bin/rails generate rspec:install
 ```
 
+Switch to SQL Strutcure format
+
+```
+# config/application.rb
+..
+config.active_record.schema_format = :sql
+```
+
+```
+rm -rf db/schema.rb
+bundle exec rake db:create db:migrate
+```
+
