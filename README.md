@@ -4,3 +4,26 @@
 rails new rails-6-boilerplate --database=postgresql
 ```
 
+Add Rubocop
+
+```
+# Gemfile
+group :development, :test do
+  ..
+  gem "rubocop", "0.74.0"
+  gem "rubocop-github", "0.13.0"
+end
+```
+
+```
+# .rubocop.yml
+
+inherit_gem:
+  rubocop-github:
+    - config/default.yml
+    - config/rails.yml
+```
+
+```
+bundle exec rubocop -a
+```
