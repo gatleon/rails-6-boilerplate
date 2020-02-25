@@ -70,3 +70,12 @@ Add permitted local hosts
 config.hosts << "gat.ngrok.io"
 ```
 
+Add Rack::Deflater
+
+```
+# config/application.rb
+
+# https://www.schneems.com/2017/11/08/80-smaller-rails-footprint-with-rack-deflate/
+config.middleware.insert_after ActionDispatch::Static, Rack::Deflater
+```
+

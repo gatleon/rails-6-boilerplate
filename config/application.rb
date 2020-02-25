@@ -19,5 +19,8 @@ module Rails6Boilerplate
     # the framework and any gems in your application.
 
     config.active_record.schema_format = :sql
+
+    # https://www.schneems.com/2017/11/08/80-smaller-rails-footprint-with-rack-deflate/
+    config.middleware.insert_after ActionDispatch::Static, Rack::Deflater
   end
 end
