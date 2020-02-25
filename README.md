@@ -1,4 +1,33 @@
+<img src="https://raw.githubusercontent.com/gatleon/rails-6-boilerplate/master/gatleon-rails-6-boilerplate.png" alt="gatleon rails-6-boilerplate" align="right"/>
+
 # rails-6-boilerplate
+
+## Installation
+
+Clone this repo.
+
+```
+git@github.com:gatleon/rails-6-boilerplate.git
+```
+
+Find and Replace the following instances with your application's name/pattern.
+
+```
+Rails6Boilerplate
+rails_6_boilerplate
+RAILS_6_BOILERPLATE
+```
+
+Run the application
+```
+bundle install
+bin/rake db:create db:migrate
+bin/rails s
+```
+
+## Alternative Installation
+
+Follow these steps:
 
 ```
 rails new rails-6-boilerplate --database=postgresql
