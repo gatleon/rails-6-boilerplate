@@ -1,6 +1,6 @@
-<img src="https://raw.githubusercontent.com/gatleon/rails-6-boilerplate/master/gatleon-rails-6-boilerplate.png" alt="gatleon rails-6-boilerplate" align="right"/>
-
 # rails-6-boilerplate
+
+<img src="https://raw.githubusercontent.com/gatleon/rails-6-boilerplate/master/gatleon-rails-6-boilerplate.png" alt="gatleon rails-6-boilerplate"/>
 
 ## Installation
 
