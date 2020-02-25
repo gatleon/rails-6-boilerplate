@@ -63,3 +63,10 @@ Add MountainView gem
 gem "mountain_view"
 ```
 
+Add permitted local hosts
+
+```
+# config/environments/development.rb
+config.hosts << "gat.ngrok.io"
+```
+
