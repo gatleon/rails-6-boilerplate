@@ -55,3 +55,11 @@ rm -rf db/schema.rb
 bundle exec rake db:create db:migrate
 ```
 
+Add MountainView gem
+
+```
+# Gemfile
+
+gem "mountain_view"
+```
+
