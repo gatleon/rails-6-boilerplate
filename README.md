@@ -1,16 +1,16 @@
+![gatleon-params2](https://raw.githubusercontent.com/gatleon/rails-6-boilerplate/master/gatleon-opensource.png)
+
 # rails-6-boilerplate
 
-<img src="https://raw.githubusercontent.com/gatleon/rails-6-boilerplate/master/gatleon-rails-6-boilerplate.png" alt="gatleon rails-6-boilerplate"/>
+## installation
 
-## Installation
-
-Clone this repo.
+clone this repo.
 
 ```
 git@github.com:gatleon/rails-6-boilerplate.git
 ```
 
-Find and Replace the following instances with your application's name/pattern.
+find and Replace the following instances with your application's name/pattern.
 
 ```
 Rails6Boilerplate
@@ -18,22 +18,23 @@ rails_6_boilerplate
 RAILS_6_BOILERPLATE
 ```
 
-Run the application
+run the application
+
 ```
 bundle install
 bin/rake db:create db:migrate
 bin/rails s
 ```
 
-## Alternative Installation
+## alternative installation
 
-Follow these steps:
+follow these steps:
 
 ```
 rails new rails-6-boilerplate --database=postgresql
 ```
 
-Add Rubocop
+add Rubocop
 
 ```
 # Gemfile
@@ -57,7 +58,7 @@ inherit_gem:
 bundle exec rubocop -a
 ```
 
-Add RSpec
+add RSpec
 
 ```
 # Gemfile
@@ -71,7 +72,7 @@ end
 bin/rails generate rspec:install
 ```
 
-Switch to SQL Strutcure format
+switch to SQL Strutcure format
 
 ```
 # config/application.rb
@@ -84,7 +85,7 @@ rm -rf db/schema.rb
 bundle exec rake db:create db:migrate
 ```
 
-Add MountainView gem
+add MountainView gem
 
 ```
 # Gemfile
@@ -92,14 +93,14 @@ Add MountainView gem
 gem "mountain_view"
 ```
 
-Add permitted local hosts
+add permitted local hosts
 
 ```
 # config/environments/development.rb
 config.hosts << "gat.ngrok.io"
 ```
 
-Add Rack::Deflater
+add Rack::Deflater
 
 ```
 # config/application.rb
